@@ -12,6 +12,17 @@ export default defineConfig({
       },
     },
   },
+  output: {
+    filename: {
+      html: "index.html",
+    },
+    distPath: {
+      html: "",
+    },
+  },
+  html: {
+    disableHtmlFolder: true,
+  },
   runtime: {
     router: true,
   },
